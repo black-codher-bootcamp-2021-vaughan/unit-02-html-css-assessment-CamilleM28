@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+
+body {
+  font-family: Dosis, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 300px 300px;
+  gap: 40px;
+  grid-auto-flow: dense;
+  justify-content: flex-end;
+}
+
+.Menu {
+  position: fixed;
+}
+
+.Image {
+  grid-column-start: 2;
+}
+
+.Info {
+  grid-column-end: span 2;
+}
+
+.Name {
+  grid-column: 1;
+}
