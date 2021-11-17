@@ -1,4 +1,4 @@
-[TODO: Replace with your Netflify status badge]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/02367259-a881-4ab8-909e-3ed4db2a631f/deploy-status)](https://app.netlify.com/sites/camillem/deploys)
 
 # HTML and CSS Assessment
 
