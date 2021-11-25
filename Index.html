@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Developer Portfolio" />
     <meta name="Keywords" content="Javascript, HTML, CSS, NodeJS, React" />
     <title>Camille Marawa - Full Stack Developer</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul id="nav">
+          <li><a href="#Name">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Timeline">Experience</a></li>
+          <li><a href="#social-media">Links</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="container">
-      <header class="Menu">
-        <nav>
-          <a href="Home">Home</a>
-          <a href="About">About</a>
-          <a href="Portfolio">Projects</a>
-          <a href="Contact">Contact</a>
-        </nav>
-      </header>
       <img
-        class="Image"
+        class="profile-img"
         src="Snapchat-1898103641.jpg"
         alt="Image of Camille"
         width="250"
         height="300"
       />
-      <h1 class="Name">Camille Marawa</h1>
-      <section class="Info">
-        <p>Full stack developer.</p>
-        <ul>
+      <h1 class="Name" id="Name">Camille Marawa</h1>
+      <section class="about-me" id="about-me">
+        <ul id="horizontal">
           <li>Html + CSS</li>
           <li>Javascript</li>
           <li>React</li>
@@ -36,6 +40,56 @@
           <li>SQL</li>
           <li>Python</li>
         </ul>
+        <br />
+        <br />
+        <br />
+
+        <p>
+          <span>Full stack developer.</span><br />I want to use tech to
+          accelerate the pace in which help International Development goals are
+          acheived.
+        </p>
       </section>
+      <ul class="projects" id="projects">
+        <h2>Projects</h2>
+        <li>Javascript group project</li>
+        <li>React Project</li>
+        <li>Node project</li>
+        <li>MongoDB project</li>
+        <li>Personal project</li>
+      </ul>
+      <footer>
+        <ul class="social-media" id="social-media">
+          <h4>Social Media</h4>
+          <li>
+            <a href="https://github.com/CamilleM28"
+              ><img
+                src="2048px-Octicons-mark-github.svg.png"
+                alt="GitHub logo"
+                width="60px"
+                height="60px"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/camille-marawa-72a8261a9/"
+              ><img
+                src="61109.png"
+                alt="linkedin Logo"
+                width="60px"
+                height="60px"
+              />
+            </a>
+          </li>
+          <l1
+            ><a href="https://codepen.io/camillem28"
+              ><img
+                src="2111501.png"
+                alt="Codepen Logo"
+                width="60px"
+                height="60px" /></a
+          ></l1>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
