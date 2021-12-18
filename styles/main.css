@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -26,7 +27,6 @@ body {
 
 .profile-img {
   justify-self: center;
-  grid-row-start: 3;
 }
 
 footer {
@@ -57,12 +57,78 @@ span {
   margin-left: 0px;
 }
 
-#social-media {
-  padding: 0px;
+.timeline {
+  justify-self: center;
 }
 
-.social-media {
-  grid-row-start: -1;
+.timeline li:first-of-type:before {
+  content: "2011";
+  margin: 30px auto -95px auto;
+}
+.timeline li:nth-of-type(2):before {
+  content: "2015";
+}
+.timeline li:nth-of-type(3):before {
+  content: "2017";
+}
+.timeline li:nth-of-type(4):before {
+  content: "2018";
+}
+.timeline li:nth-of-type(5):before {
+  content: "2019";
+  margin: 105px auto -95px auto;
+}
+.timeline li:nth-of-type(6):before {
+  content: "2021";
+  background: green;
+}
+
+.timeline li {
+  list-style-type: none;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+/* .timeline li:nth-of-type(2n) {
+  list-style-type: none;
+  position: relative;
+  width: 200px;
+  margin-bottom: 50px;
+} */
+
+.timeline li:before {
+  width: 120px;
+  height: 130px;
+  border: 3px solid #4caf50;
+  border-radius: 25%;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin: 150px auto -95px auto;
+  background: #f1f1f1;
+  color: #000;
+  cursor: pointer;
+}
+
+.timeline li:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 300%;
+  background-color: grey;
+  top: 25px;
+  left: 50%;
+  z-index: -999;
+}
+
+.timeline li:last-of-type:after {
+  content: none;
+}
+
+#social-media {
+  padding: 0px;
 }
 
 #social-media li {
@@ -123,5 +189,56 @@ span {
 
   #nav li a:hover {
     background-color: pink;
+  }
+
+  ul.timeline {
+    grid-column-end: span 2;
+  }
+
+  .timeline li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .timeline li:before {
+    width: 120px;
+    height: 130px;
+    border: 3px solid #4caf50;
+    border-radius: 25%;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto -95px auto;
+    background: #f1f1f1;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .timeline li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    top: 65px;
+    left: 50%;
+    z-index: -999;
+  }
+
+  .timeline li:last-of-type:after {
+    content: none;
+  }
+
+  .timeline li:nth-of-type(5):before {
+    content: "2019";
+    margin: 0px auto -95px auto;
+  }
+
+  .timeline li:first-of-type:before {
+    content: "2011";
+    margin: 0px auto -95px auto;
   }
 }
