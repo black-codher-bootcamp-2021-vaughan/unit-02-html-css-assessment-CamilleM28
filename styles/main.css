@@ -1,10 +1,9 @@
-@import "https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap";
-/* src {https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap} */
+/* @import ("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap"); */
 
-/* @font-face {
+@font-face {
   font-family: Dosis;
-  src: url(/home /camille/unit-02-html-css-assessment-CamilleM28/Dosis.zip);
-} */
+  src: url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+}
 
 body {
   font-family: Dosis, sans-serif;
