@@ -1,4 +1,4 @@
-@import "src:url(https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap)";
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap);
 
 body {
   font-family: Dosis, sans-serif;
@@ -70,8 +70,19 @@ span {
   margin-left: 0px;
 }
 
+.projects h2 {
+  color: #4c3211;
+  font-weight: 700;
+}
+
+.projects {
+  font-weight: 700;
+}
+
 .timeline {
   justify-self: center;
+  color: #4c3211;
+  font-weight: 700;
 }
 
 .timeline li:first-of-type:before {
