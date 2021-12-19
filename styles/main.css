@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Urbanist:wght@100&family=Yuji+Boku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Urbanist:wght@100&family=Yuji+Boku&display=swap"src:);
 body {
   font-family: "Dosis", sans-serif;
   color: #e8f0f1;
@@ -143,10 +143,6 @@ span {
 }
 
 @media (min-width: 768px) {
-  body {
-    font-family: Dosis, sans-serif;
-  }
-
   .container {
     display: grid;
     grid-template-columns: 44% 44%;
