@@ -143,6 +143,10 @@ span {
 }
 
 @media (min-width: 768px) {
+  body {
+    font-family: Dosis, sans-serif;
+  }
+
   .container {
     display: grid;
     grid-template-columns: 44% 44%;
