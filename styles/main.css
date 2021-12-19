@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Urbanist:wght@100&family=Yuji+Boku&display=swap");
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
 
 html {
   scroll-behavior: smooth;
